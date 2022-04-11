@@ -1,22 +1,27 @@
 <?php
 
-namespace Ivan\Tests;
+namespace Ivan\Tests\LinkedList;
 
 use PHPUnit\Framework\TestCase;
-use Ivan\LinkedList\LinkedList;
+use Ivan\LinkedList\SinglyLinkedList\SinglyLinkedList;
 
-class LinkedListTest extends TestCase
+class SinglyLinkedListTest extends TestCase
 {
     const TOTAL_ITEMS = 5;
+
+    /**
+     * @var SinglyLinkedList
+     */
+    private $linkedList;
 
     protected function setUp(): void
     {
         $this->linkedList = $this->createLinkedList();
     }
 
-    private function createLinkedList(): LinkedList
+    private function createLinkedList(): SinglyLinkedList
     {
-        $linkedList = new LinkedList();
+        $linkedList = new SinglyLinkedList();
 
         for($i=1; $i <= self::TOTAL_ITEMS; $i++) {
             $linkedList->push($i);

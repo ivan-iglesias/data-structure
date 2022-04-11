@@ -1,8 +1,8 @@
 <?php
 
-namespace Ivan\LinkedList;
+namespace Ivan\LinkedList\SinglyLinkedList;
 
-class LinkedList
+class SinglyLinkedList
 {
     private $head = null;
     private $count = 0;

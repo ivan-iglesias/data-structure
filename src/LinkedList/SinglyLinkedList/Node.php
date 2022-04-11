@@ -1,6 +1,6 @@
 <?php
 
-namespace Ivan\LinkedList;
+namespace Ivan\LinkedList\SinglyLinkedList;
 
 class Node
 {
@@ -32,7 +32,7 @@ class Node
     /**
      * @return mixed
      */
-    public function getData(): mixed
+    public function getData()
     {
         return $this->data;
     }
