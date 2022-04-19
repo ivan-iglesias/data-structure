@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "parentId": null,
+    "name": "docs"
+  },
+  {
+    "id": 2,
+    "parentId": null,
+    "name": "images"
+  },
+  {
+    "id": 3,
+    "parentId": 2,
+    "name": "2021"
+  },
+  {
+    "id": 4,
+    "parentId": 2,
+    "name": "2022"
+  },
+  {
+    "id": 5,
+    "parentId": 3,
+    "name": "summer"
+  },
+  {
+    "id": 6,
+    "parentId": 5,
+    "name": "japan"
+  },
+  {
+    "id": 7,
+    "parentId": 5,
+    "name": "canada"
+  }
+]
